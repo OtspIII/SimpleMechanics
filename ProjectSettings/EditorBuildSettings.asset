@@ -8,4 +8,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Easing/Easing.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Turrets/ImperfectRotation.unity
+    guid: 6fec9a8c8f3fc8941a7455149d4b6696
+  - enabled: 1
+    path: Assets/Turrets/LookAt.unity
+    guid: 608a6bcf7a0aa384aacc57dfd1827cae
+  - enabled: 1
+    path: Assets/Menus/MainMenu.unity
+    guid: 6f5208aa2fac9644ea5e342d8a39fa88
+  - enabled: 1
+    path: Assets/Managers/Managers.unity
+    guid: 97fc1db0cf4919945bdbe5cd70274606
+  - enabled: 1
+    path: Assets/Fake Games/Platformer.unity
+    guid: 572be0ef31808c54fb3b5d9e266a3980
+  - enabled: 1
+    path: Assets/Screenshake/Screenshake.unity
+    guid: 7a9589288c51c3b439438ef5197ba7dd
+  - enabled: 1
+    path: Assets/Sin Wave/SinWave.unity
+    guid: 841d1263b0b61f84e849ecbd98707ee7
+  - enabled: 1
+    path: Assets/Fake Games/TopDown.unity
+    guid: c3ca74b74ebe3b944a410642c3573d15
+  - enabled: 1
+    path: Assets/Unlock Demo/UnlockDemo.unity
+    guid: 1648c8e258d6fec46ad479c8181ebf3a
+  - enabled: 1
+    path: Assets/Unlock Demo/You Win.unity
+    guid: 98a04548ea547e341adce635e5807b31
   m_configObjects: {}
