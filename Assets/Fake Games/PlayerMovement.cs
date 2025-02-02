@@ -33,6 +33,6 @@ public class PlayerMovement : MonoBehaviour
             vel.y = Speed;
         else if (Input.GetKey(KeyCode.DownArrow))
             vel.y = -Speed;
-        RB.velocity = vel;
+        RB.linearVelocity = vel;
     }
 }

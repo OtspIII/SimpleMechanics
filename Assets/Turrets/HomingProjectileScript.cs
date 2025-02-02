@@ -36,7 +36,7 @@ public class HomingProjectileScript : MonoBehaviour
             Quaternion.Euler(0,0,DesiredRot),TurnSpeed*Time.deltaTime );
         
         //Fly forwards
-        RB.velocity = transform.right * Speed;
+        RB.linearVelocity = transform.right * Speed;
     }
     
     private void OnCollisionEnter2D(Collision2D other)

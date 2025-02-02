@@ -13,7 +13,7 @@ public class ProjectileScript : MonoBehaviour
     {
         //When the projectile spawns, it goes flying in the direction it's facing
         //The shooter sets the rotation when it spawns
-        RB.velocity = transform.right * Speed;
+        RB.linearVelocity = transform.right * Speed;
     }
 
     private void OnCollisionEnter2D(Collision2D other)

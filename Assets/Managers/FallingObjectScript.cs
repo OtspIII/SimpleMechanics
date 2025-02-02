@@ -18,7 +18,7 @@ public class FallingObjectScript : MonoBehaviour
     
     public void Jump(float mult=1)
     {
-        RB.velocity = new Vector2(Random.Range(-5f, 5f), Random.Range(5f, 10f)) * mult;
+        RB.linearVelocity = new Vector2(Random.Range(-5f, 5f), Random.Range(5f, 10f)) * mult;
     }
 
     void Update()
